@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		ED54AB821F71369000472AB6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ED54AB811F71369000472AB6 /* main.c */; };
+		ED54AB8F1F7137FC00472AB6 /* search.c in Sources */ = {isa = PBXBuildFile; fileRef = ED54AB8A1F7137FC00472AB6 /* search.c */; };
+		ED54AB901F7137FC00472AB6 /* sort.c in Sources */ = {isa = PBXBuildFile; fileRef = ED54AB8C1F7137FC00472AB6 /* sort.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		ED54AB7E1F71369000472AB6 /* algorithm and design pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "algorithm and design pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED54AB811F71369000472AB6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		ED54AB8A1F7137FC00472AB6 /* search.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = search.c; sourceTree = "<group>"; };
+		ED54AB8B1F7137FC00472AB6 /* search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = search.h; sourceTree = "<group>"; };
+		ED54AB8C1F7137FC00472AB6 /* sort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sort.c; sourceTree = "<group>"; };
+		ED54AB8D1F7137FC00472AB6 /* sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sort.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +47,7 @@
 		ED54AB751F71368F00472AB6 = {
 			isa = PBXGroup;
 			children = (
-				ED54AB801F71369000472AB6 /* algorithm and design pattern */,
+				ED54AB801F71369000472AB6 /* algorithm and design pattern.h */,
 				ED54AB7F1F71369000472AB6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,11 +60,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ED54AB801F71369000472AB6 /* algorithm and design pattern */ = {
+		ED54AB801F71369000472AB6 /* algorithm and design pattern.h */ = {
 			isa = PBXGroup;
 			children = (
 				ED54AB811F71369000472AB6 /* main.c */,
+				ED54AB8A1F7137FC00472AB6 /* search.c */,
+				ED54AB8B1F7137FC00472AB6 /* search.h */,
+				ED54AB8C1F7137FC00472AB6 /* sort.c */,
+				ED54AB8D1F7137FC00472AB6 /* sort.h */,
 			);
+			name = "algorithm and design pattern.h";
 			path = "algorithm and design pattern";
 			sourceTree = "<group>";
 		};
@@ -119,7 +130,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED54AB8F1F7137FC00472AB6 /* search.c in Sources */,
 				ED54AB821F71369000472AB6 /* main.c in Sources */,
+				ED54AB901F7137FC00472AB6 /* sort.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
