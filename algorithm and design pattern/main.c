@@ -35,12 +35,12 @@ int main(int argc, const char * argv[]) {
     // insertSearch, shellSort, quickSort
     int length = 100;
     int data[length];
-    int count;
+    //int count = 0;
     createSample(data,length);
     showArray(data, length);
     //count = shellSort(data, length, 3);
     quickSort(data, 0, length - 1);
-    printf("execution count [%d].\n", count);
+    //printf("execution count [%d].\n", count);
     showArray(data, length);
     
     // binSearch
