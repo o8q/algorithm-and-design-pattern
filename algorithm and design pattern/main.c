@@ -35,7 +35,7 @@ int main(int argc, const char * argv[]) {
     // insertSearch, shellSort, quickSort
     int length = 100;
     int data[length];
-    //int count = 0;
+    // int count = 0;
     createSample(data,length);
     showArray(data, length);
     //count = shellSort(data, length, 3);
